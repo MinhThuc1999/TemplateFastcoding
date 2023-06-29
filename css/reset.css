@@ -65,3 +65,7 @@ img {
 ul li {
   display: inline-block;
 }
+
+button {
+  cursor: pointer;
+}

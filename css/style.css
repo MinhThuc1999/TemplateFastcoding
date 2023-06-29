@@ -168,3 +168,63 @@
 .categories .img .img-content .img-desc {
   margin-left: 50px;
 }
+
+/*footer*/
+
+.footer {
+  background-color: #ededed;
+  padding: 30px 65px;
+}
+.footer .menuFooter ul > li a {
+  text-transform: uppercase;
+  color: #919191;
+  font-weight: bold;
+}
+.footer .menuFooter ul > li {
+  padding: 0 25px;
+}
+
+.footer .address {
+  color: #919191;
+  padding-left: 40px;
+}
+.footer .address p:first-child {
+  color: #000000;
+  font-weight: 600;
+}
+.footer .contact p:first-child {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer .contact p:nth-child(2) {
+  font-size: 9.5px;
+  color: #383838;
+  margin: 15px 0 13px 0;
+}
+.footer .contact p:nth-child(3) {
+  height: 25px;
+}
+.footer .contact p span input {
+  outline: none;
+  width: 70%;
+  height: 100%;
+}
+.footer .contact p span button {
+  border: none;
+  height: 100%;
+  padding: 0 15px;
+  background-color: #000000;
+}
+.footer .copyright {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: #919191;
+}
+.footer .network ul li {
+  padding: 0 30px;
+}
+.footer .network ul li a {
+  color: #676767;
+}
