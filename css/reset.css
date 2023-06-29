@@ -1,0 +1,72 @@
+
+
+/*Khai báo biến*/
+
+:root {
+    --base-color: #383838;
+    /*Màu chủ đạo của text*/
+    --primary-color:#b8a47e;
+    /*Màu chủ đạo của website*/
+    --heading-color: #383838;
+    /*Màu các thẻ heading*/
+
+    --container-width: 1015px;
+    /*Chiều rộng container*/
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+/*Thiết lập các thành phần dùng chung*/
+
+body {
+    color: var(--base-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--heading-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none inside;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+}
+
+.section-box{
+    margin-top: 145px;
+}
+
+ ul li{
+    display: inline-block;
+   
+}
