@@ -1,37 +1,33 @@
-
-
 /*Khai báo biến*/
 
 :root {
-    --base-color: #383838;
-    /*Màu chủ đạo của text*/
-    --primary-color:#b8a47e;
-    /*Màu chủ đạo của website*/
-    --heading-color: #383838;
-    /*Màu các thẻ heading*/
+  --base-color: #383838;
+  /*Màu chủ đạo của text*/
+  --text-color: #a7a7a7;
+  --primary-color: #b8a47e;
+  /*Màu chủ đạo của website*/
+  --heading-color: #383838;
+  /*Màu các thẻ heading*/
 
-    --container-width: 1015px;
-    /*Chiều rộng container*/
+  --container-width: 1015px;
+  /*Chiều rộng container*/
 }
-
-
 
 * {
-    padding: 0;
-    margin: 0;
-    outline: none;
-    border: none;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
 }
-
 
 /*Thiết lập các thành phần dùng chung*/
 
 body {
-    color: var(--base-color);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
-    line-height: 1.4;
+  color: var(--base-color);
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  line-height: 1.4;
 }
 
 h1,
@@ -40,33 +36,32 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--heading-color);
+  color: var(--heading-color);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul,
 ol {
-    list-style: none inside;
+  list-style: none inside;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
-    max-width: var(--container-width);
-    margin: 0 auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.section-box{
-    margin-top: 145px;
+.section-box {
+  margin-top: 145px;
 }
 
- ul li{
-    display: inline-block;
-   
+ul li {
+  display: inline-block;
 }
