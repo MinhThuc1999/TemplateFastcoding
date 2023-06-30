@@ -1,17 +1,126 @@
 /*File này xử lý giao diện responsive*/
 
 @media all and (max-width: 767px) {
+  .header .menu ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .header .menu ul li a {
+    display: block !important;
+  }
+  .header .header-decreption {
+    position: static !important;
+  }
+
+  .introduct .img .img-content {
+    top: 5em !important;
+    right: 0;
+    left: 0;
+    padding-left: 12px;
+  }
+  .introduct .img .img-content .img-title {
+    font-size: 20px !important;
+  }
+
+  .introduct .block {
+    margin: 0 !important;
+    padding: 22px 41px 62px 22px !important;
+  }
+  .categories {
+    min-height: 500px !important;
+  }
+  .categories .block {
+    padding: 21px 15px 51px 14px !important;
+  }
+  .categories .img .img-content {
+    top: 0 !important;
+    bottom: 0;
+  }
+  .categories .img .img-content .img-title {
+    font-size: 22px !important;
+  }
+  .collection .collection-title {
+    margin: 0 0 80px 0 !important;
+  }
+  .collection .collection-title h1 {
+    font-size: 30px !important;
+  }
+  .collection .collection-title span:last-child {
+    padding: 3px 68px 3px 3px !important;
+  }
+  .product .product-block .product-content .product-content__describe {
+    padding: 0 !important;
+  }
+  .product
+    .product-block
+    .product-content
+    .product-content__describe
+    p:first-child
+    span:last-child {
+    font-size: 17px !important;
+    letter-spacing: 4px !important;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 992px) {
+  .categories {
+    min-height: 800px !important;
+  }
+  .categories .block {
+    padding: 68px 111px 129px 80px !important;
+  }
+  .introduct .block {
+    margin: 0 !important;
+    padding: 40px 201px 93px 88px !important;
+  }
 }
 
 /*Desktop Small*/
 @media all and (min-width: 993px) and (max-width: 1200px) {
+  .categories .block {
+    padding: 21px 15px 51px 14px !important;
+  }
 }
 
 /*
 Media query chung
 */
 @media all and (max-width: 1200px) {
+  .header .menu ul li a {
+    color: #2b2b2b !important;
+
+    padding: 20px 0;
+  }
+  .categories .block {
+    margin: 0 !important;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-size: contain !important;
+  }
+  .product-block .product-content .product-content__right .des-img {
+    position: static !important;
+  }
+  .product-content__right {
+    padding-left: 20px;
+    text-align: center;
+  }
+  .product-block .product-content__bottom {
+    padding: 0 !important;
+  }
+  .product-block .product-content__bottom .describe {
+    padding: 20px 0 0 30px !important;
+  }
+  .product-block .product-content__bottom .block-left {
+    position: static !important;
+    text-align: center;
+  }
+  .product-block .product-content__bottom .block-right .img {
+    text-align: center;
+  }
+  .footer .address,
+  .footer .contact {
+    margin: 30px 0;
+  }
 }

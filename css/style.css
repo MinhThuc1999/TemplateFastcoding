@@ -1,6 +1,3 @@
-.header {
-  position: relative;
-}
 .show-mobile {
   display: none;
 }
@@ -92,7 +89,10 @@
   margin-right: 11px;
   font-weight: 600;
 }
-
+.introduct {
+  max-width: 1340px;
+  margin: 0 auto;
+}
 .introduct .block {
   background-image: url("../images/block1/boder_content.png");
   background-size: contain;
@@ -147,11 +147,6 @@
   margin-top: 7rem;
   position: absolute;
   z-index: 1;
-  transform: translateX(40px);
-  -webkit-transform: translateX(40px);
-  -moz-transform: translateX(40px);
-  -ms-transform: translateX(40px);
-  -o-transform: translateX(40px);
 }
 .categories .block .block-content {
   line-height: 2;
@@ -241,7 +236,8 @@
   .product-content__describe
   .more
   p:first-child,
-.product-content__right .describe p:nth-child(3) {
+.product-content__right .describe p:nth-child(3),
+.product-block .product-content__bottom .describe p:nth-child(2) {
   font-family: "Roboto", sans-serif;
   color: #919191;
 }
@@ -251,7 +247,8 @@
   .product-content__describe
   .more
   p:last-child,
-.product-content__right .describe p:nth-child(4) {
+.product-content__right .describe p:nth-child(4),
+.product-block .product-content__bottom .describe p:nth-child(3) {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 9px;
@@ -261,12 +258,14 @@
 
 .product-block .product-content .product-content__right .describe {
   padding-top: 6em;
+  padding-right: 10em;
 }
 .product-block
   .product-content
   .product-content__right
   .describe
-  p:nth-child(2) {
+  p:nth-child(2),
+.product-block .product-content__bottom .describe p:first-child {
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 7px;
@@ -282,6 +281,26 @@
 .product-block .product-content .product-content__right .des-img {
   position: absolute;
   right: 14em;
+  bottom: 0;
+}
+.product-block .product-content__bottom {
+  padding-right: 10em;
+  position: relative;
+}
+.product-block .product-content__bottom .describe {
+  padding: 20px 0 0 100px;
+}
+.product-block .product-content__bottom .block-left p:last-child {
+  font-size: 44px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: white;
+  text-shadow: 1px 7px 11px #000000ab;
+  text-align: end;
+}
+.product-block .product-content__bottom .block-left {
+  position: absolute;
+  left: 130px;
 }
 /*footer*/
 
