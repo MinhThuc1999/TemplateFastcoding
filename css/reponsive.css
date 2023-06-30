@@ -1,0 +1,17 @@
+/*File này xử lý giao diện responsive*/
+
+@media all and (max-width: 767px) {
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+}
+
+/*Desktop Small*/
+@media all and (min-width: 993px) and (max-width: 1200px) {
+}
+
+/*
+Media query chung
+*/
+@media all and (max-width: 1200px) {
+}

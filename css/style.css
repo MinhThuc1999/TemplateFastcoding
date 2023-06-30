@@ -1,7 +1,9 @@
 .header {
   position: relative;
 }
-
+.show-mobile {
+  display: none;
+}
 .header .slider {
   padding-right: 0;
 }
@@ -169,6 +171,118 @@
   margin-left: 50px;
 }
 
+.collection .collection-title {
+  text-transform: uppercase;
+  margin: 0px 0 80px 15em;
+}
+.collection .collection-title h1 {
+  letter-spacing: 10px;
+  font-size: 44px;
+}
+.collection .collection-title p {
+  margin-top: 30px;
+  float: right;
+}
+.collection .collection-title span:last-child {
+  background-color: #e1d9c9;
+  padding: 3px 200px 3px 3px;
+  font-size: 16px;
+  color: #786f5f;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.product .product-block .product-block__title span:first-child {
+  font-size: 44px;
+  font-weight: bold;
+  color: #969696;
+  letter-spacing: 5px;
+}
+.product .product-block .product-block__title span:last-child img {
+  transform: translateY(-12px);
+}
+.product .product-block .product-content {
+  position: relative;
+}
+.product .product-block .product-content .product-content__describe {
+  padding: 2px 120px;
+}
+.product
+  .product-block
+  .product-content
+  .product-content__describe
+  p:first-child
+  span:last-child {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 7px;
+  transform: translateY(-38px);
+  display: inline-block;
+  padding-left: 20px;
+}
+.product
+  .product-block
+  .product-content
+  .product-content__describe
+  p:first-child
+  span:first-child {
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+  padding: 0 10px;
+  background-color: #e1d9c9;
+  margin-top: 20px;
+}
+.product .product-block .product-content .product-content__describe .more {
+  padding-left: 15em;
+}
+.product
+  .product-block
+  .product-content
+  .product-content__describe
+  .more
+  p:first-child,
+.product-content__right .describe p:nth-child(3) {
+  font-family: "Roboto", sans-serif;
+  color: #919191;
+}
+.product
+  .product-block
+  .product-content
+  .product-content__describe
+  .more
+  p:last-child,
+.product-content__right .describe p:nth-child(4) {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 9px;
+  cursor: pointer;
+  margin-top: 18px;
+}
+
+.product-block .product-content .product-content__right .describe {
+  padding-top: 6em;
+}
+.product-block
+  .product-content
+  .product-content__right
+  .describe
+  p:nth-child(2) {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 7px;
+  margin-bottom: 20px;
+}
+.product-block
+  .product-content
+  .product-content__right
+  .describe
+  p:nth-child(5) {
+  margin-top: 50px;
+}
+.product-block .product-content .product-content__right .des-img {
+  position: absolute;
+  right: 14em;
+}
 /*footer*/
 
 .footer {
